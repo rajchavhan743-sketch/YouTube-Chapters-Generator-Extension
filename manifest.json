@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Chapter Generator",
+  "description": "A modern web extension to generate video chapters from a YouTube video URL. Paste a URL, click generate, and get copyable timestamps for your video description.",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' https://cdn.tailwindcss.com https://aistudiocdn.com; object-src 'self'"
+  }
+}

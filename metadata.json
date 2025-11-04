@@ -1,0 +1,5 @@
+{
+  "name": "YouTube Chapter Generator",
+  "description": "A modern web extension to generate video chapters from a YouTube video URL. Paste a URL, click generate, and get copyable timestamps for your video description.",
+  "requestFramePermissions": []
+}
